@@ -1,0 +1,29 @@
+#divTwo{
+    border: 1px solid green;
+    width: 200px;
+    height: 100px;
+}
+div{
+    border: 1px solid red;
+    width: 300px; 
+    height: 100px;
+}
+
+.divthethird{
+margin: 100px;
+width: 300px;
+border: 1px solid;
+padding: 10px;
+}
+a:link{
+color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    color: pink;
+}
+a:active{
+    color: red;
+}
