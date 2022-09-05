@@ -1,8 +1,14 @@
-#Erwinsmith{
+h1{
 
     color: rgb(49, 3, 49);
-margin-left: 100px;
+    text-align: center;
     }
 h2{
     color: rgb(6, 6, 87);
+    text-align: center;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
