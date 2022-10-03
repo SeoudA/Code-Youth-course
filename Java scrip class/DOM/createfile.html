@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="first"> First </p>
+    <p id="second">Second</p>
+    <p id="third"> Third</p>
+    <p id="fourth">Fourth</p>
+    <button onclick="create()">HIT ME!</button>
+    <script>
+        function create(){
+            const newp= document.createElement("p")
+            newp.innerHTML="wordies and stuff";
+            newp.style.color="red";
+            let p1 = document.getElementById("first");
+            document.body.insertBefore(newp,p1);
+
+
+        }
+    </script>
+</body>
+</html>

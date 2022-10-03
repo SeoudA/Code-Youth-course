@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="yahoo.com">Yahoo</a>
+   <div> 
+    <button onclick="create()">click me</button>
+   </div> 
+   <script>
+    function create(){
+        // let g = 
+    let img = document.createElement("img");
+    let src= "https://ehq-production-canada.imgix.net/image_stores/logos/13a666b4591ad0efa13c75a60f5da09705da56e7/000/004/654/original/city-of-ottawa-logo.jpg?auto=compress%2Cformat&max-w=400"
+    img.setAttribute("src", src);
+    img.setAttribute("width", "500");
+    img.setAttribute("height", "600");
+    img.setAttribute("alt", "Ottawa")
+    document.body.appendChild(img);
+
+    }
+    
+   </script>
+
+</body>
+</html>

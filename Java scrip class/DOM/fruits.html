@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Fruits</title>
+</head>
+<body>
+    <div>
+    <h1>Fruits</h1>
+    <ul>
+        <li id="red">Apple</li>
+        <li id="green">Kiwi</li>
+        <li id="yellow">Banana</li>
+        <li id="orange">Orange</li>
+        <li id="red">Strawberry</li>
+        <li id="red">Pomegranate</li>
+        <li id="green">Grapes</li>
+    </ul>
+    <button onclick="fn()">Fruit me!</button>
+    <script>
+        function fn(){
+        let red = document.getElementById("red");
+        let green = document.getElementById("green");
+        let orange = document.getElementById("Orange");
+        let yellow = document.getElementById("yellow");
+        red.style.color="red"
+        yellow.style.color="yellow"
+        orange.style.color="orange"
+        green.style.color="green"
+    }
+    </script>
+</div>
+</body>
+</html>

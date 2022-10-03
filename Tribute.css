@@ -7,8 +7,16 @@ h2{
     color: rgb(6, 6, 87);
     text-align: center;
 }
+.MILITARY{
+    color: rgb(6, 6, 87);
+font-weight: bold;
+}
 .center{
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
