@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "City of Brass",
+        "author": "S.a Chakraborty",
+        "series": "The Daevabad Trilogy"
+    },
+    {
+        "id": 2,
+        "title": "The Kingdom of Copper",
+        "author":  "S.a Chakraborty",
+        "series":"The Daevabad Trilogy"
+
+    },
+    {
+        "id": 3,
+        "title": "The Empire of Gold",
+        "author":  "S.a Chakraborty",
+        "series":"The Daevabad Trilogy"
+
+    },
+    {
+        "id": 4,
+        "title": "The River of Silver",
+        "author":  "S.a Chakraborty",
+        "series": "The Daevabad Trilogy"
+
+    },
+    {
+        "id": 5,
+        "title":"The Poppy War",
+        "author": "R. F. Kuang", 
+        "series":"The Poppy War Trilogy"
+
+    },
+    {
+        "id": 6,
+        "title": "The Dragon Republic",
+        "author":  "R. F. Kuang",
+        "series":"The Poppy War Trilogy"
+
+    },
+    {
+        "id": 7,
+        "title": "The Burning God",
+        "author":  "R. F. Kuang",
+        "series": "The Poppy War Trilogy"
+
+    }
+    
+]
