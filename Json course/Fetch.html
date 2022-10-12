@@ -17,7 +17,27 @@
 .then( response => response.json ())
 .then( resp => {
     console.log(resp)
+    for(let i in resp){
+        let tr = document.createElement("tr");
+        for(let g in resp[i]){
+            let td = document.createElement("td");
+            td.innerHTML = resp[i][g]
+            tr.appendChild(td)
+        }
+        document.getElementsByTagName("tbody")[0].appendChild(tr)
+    }
 })
+
+// resp.forEach((element, i) => {
+//     let tr = document.createElement("tr");
+//     for(let g in element){
+//         let td = document.createElement("td");
+//         td.innerHTML = element[g]
+//         tr.appendChild(td)
+//     }
+//     document.body.getElementsByTagName("tbody")[0].appendChild(tr)
+//     });
+// })
 </script>
 </body>
 </html>

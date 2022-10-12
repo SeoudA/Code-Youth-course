@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const url = "https://datausa.io/api/data?drilldowns=Nation&measures=Population"
+        fetch(url)
+        .then((res)=> res.json())
+        .then ((data)=> {
+            console.log("data",data)
+            let h2 = document.createElement("h2");
+            h2.innerText=data.count;
+            document.body.appendChild(h2);
+            console.log(data.data[0].Nation);
+            console.log(data.data[0].Year);
+            console.log(data.data[0].Population);
+            const table =document.createElement("table");
+            let temp = "";
+            for(let i=0;i<data.data.length;i++){
+            temp += "<tr>";
+                temp += "<td>"+ data.data[i].api+"</td>";
+                temp += '<td>${data.data[i].Nation}</td>';
+                temp += '<td>${data.data[i].Year}</td>';
+                temp += '<td>${data.data[i].Population}</td>';
+                temp += "</tr>";
+                table.innerHTML=temp;
+            }
+            document.body.appendChild(table);
+        })
+    </script>
+
+</body>
+</html>
